@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: white;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+.center {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  align-items: center;
+}
+p {
+  max-width: 800px;
+  font-size: 20px;
+}
+
+code {
+  color: white;
+}
+
+.code_container {
+  background-color: black;
+  width: 800px;
+  padding: 20px 30px;
+}
+
+.Fail {
+  padding: 10px;
+  font-size: 15px;
+  color: red;
+  background-color: black;
+  max-width: 400px;
+}
+
+.factoria_inpt,
+.fibanachi_inpt,
+.summ_inpt {
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+
+#factoria_btn,
+.fibanachi_btn,
+.summ_btn {
+  border-radius: 10px;
+  max-width: 500px;
+  padding: 5px 90px;
+  margin-top: 10px;
+  cursor: pointer;
+  border: 0px;
+  background-color: goldenrod;
+}
+
+#stop_msg_btn,
+#start_btn,
+#color_random {
+  cursor: pointer;
+  width: 200px;
+  height: 100px;
+}
+
+button {
+  cursor: pointer;
+  margin-top: 25px;
+  width: 200px;
+  height: 100px;
+}
+
+.hiden {
+  visibility: hidden;
+}
+
+#text_hiden {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+#color_h {
+  color: black;
+}
+
+#add_task_btn {
+  font-size: 16px;
+}
+
+.naming {
+  font-size: 50px;
+  margin: 100px 0px 100px 0px;
+}
+
+.task_list {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  li {
+    text-align: start;
+    cursor: pointer;
+    list-style: none;
+    font-size: 40px;
+    margin-top: 20px;
+  }
+}
+
+.task_inp {
+  padding: 20px 10px 20px 10px;
+  font-size: 25px;
+}
+
+.task_cmpl {
+  text-decoration: line-through;
+}
